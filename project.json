@@ -1,0 +1,74 @@
+{
+  "name": "InvoiceProcessingHITL",
+  "description": "Orchestration Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.5.2]",
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.FormActivityLibrary": "[1.1.8]",
+    "UiPath.IntelligentOCR.Activities": "[4.10.2]",
+    "UiPath.Mail.Activities": "[1.9.3]",
+    "UiPath.MicrosoftOffice365.Activities": "[1.5.0]",
+    "UiPath.MLServices.Activities": "[1.1.3]",
+    "UiPath.OCR.Activities": "[2.4.1]",
+    "UiPath.Persistence.Activities": "[1.1.9]",
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.UIAutomation.Activities": "[20.10.6]",
+    "UiPathTeam.AttendedRobotStatus.Activities": "[1.0.30]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.9.2.0",
+  "projectVersion": "1.0.22",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "arguments": {
+    "input": [
+      {
+        "name": "in_UseSAP",
+        "type": "System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "required": false,
+        "hasDefault": true
+      }
+    ],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "0a00f2d3-351b-4c6f-b3db-3a3eb82a4f8c",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
